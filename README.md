@@ -1,4 +1,4 @@
-https://fantastic-wisp-e6cad4.netlify.app/
+https://htmlpreview.github.io/?https://github.com/zxcoksik/-3/blob/main/index.html
 
 Сайт RESONANCE — многостраничный премиальный сайт кураторской студии винила. Общие элементы (шапка с меню, подвал, прелоадер, модальное окно заявки) подключаются на всех страницах через js/layout.js, поэтому навигация и оформление единые по всему проекту.
 
