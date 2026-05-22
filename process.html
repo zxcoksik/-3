@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RESONANCE — как мы работаем: от заявки до доставки винила.">
+  <meta name="theme-color" content="#0a0a0c">
+  <title>Процесс — RESONANCE</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Outfit:wght@300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="process">
+
+  <main>
+    <section class="page-head section">
+      <div class="container">
+        <span class="section__label reveal">03 — Процесс</span>
+        <h1 class="page-head__title reveal" data-delay="100">От заявки <em>до иглы</em></h1>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="timeline" id="timeline">
+          <div class="timeline__track" aria-hidden="true">
+            <div class="timeline__line"></div>
+            <div class="timeline__progress" id="timelineProgress"></div>
+          </div>
+          <article class="timeline__step reveal" data-delay="0">
+            <div class="timeline__marker"><span>01</span></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Заявка</h3>
+              <p class="timeline__desc">Опишите желаемый релиз или выберите из каталога. Мы ответим в течение 2 часов.</p>
+            </div>
+          </article>
+          <article class="timeline__step reveal" data-delay="150">
+            <div class="timeline__marker"><span>02</span></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Поиск &amp; верификация</h3>
+              <p class="timeline__desc">Находим издание у проверенных поставщиков, проверяем состояние и подлинность.</p>
+            </div>
+          </article>
+          <article class="timeline__step reveal" data-delay="300">
+            <div class="timeline__marker"><span>03</span></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Премиум-упаковка</h3>
+              <p class="timeline__desc">Антистатические вложения, жёсткий бокс и персональная открытка — каждая деталь продумана.</p>
+            </div>
+          </article>
+          <article class="timeline__step reveal" data-delay="450">
+            <div class="timeline__marker"><span>04</span></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Доставка</h3>
+              <p class="timeline__desc">Экспресс по России, международная доставка с полным трекингом и страховкой.</p>
+            </div>
+          </article>
+          <article class="timeline__step reveal" data-delay="600">
+            <div class="timeline__marker"><span>05</span></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Первый spin</h3>
+              <p class="timeline__desc">Пластинка у вас. Приглашаем на listening party — делимся эмоциями вместе.</p>
+            </div>
+          </article>
+        </div>
+        <p class="process__cta reveal">
+          <button type="button" class="btn btn--glow" data-modal-open data-cursor="hover">Оставить заявку</button>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/layout.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

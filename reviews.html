@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RESONANCE — отзывы коллекционеров и меломанов.">
+  <meta name="theme-color" content="#0a0a0c">
+  <title>Отзывы — RESONANCE</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Outfit:wght@300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="reviews">
+
+  <main>
+    <section class="page-head section">
+      <div class="container">
+        <span class="section__label reveal">04 — Отзывы</span>
+        <h1 class="page-head__title reveal" data-delay="100">Голоса <em>комьюнити</em></h1>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="slider reveal" id="testimonialSlider">
+          <div class="slider__track" id="sliderTrack">
+            <article class="slider__slide glass-card">
+              <div class="slider__stars" aria-hidden="true">★★★★★</div>
+              <blockquote class="slider__quote">«Упаковка — произведение искусства. Пластинка приехала в идеальном состоянии, а открытка с персональным текстом — неожиданный luxury-touch.»</blockquote>
+              <footer class="slider__author">
+                <span class="slider__name">Александра М.</span>
+                <span class="slider__role">Коллекционер · Москва</span>
+              </footer>
+            </article>
+            <article class="slider__slide glass-card">
+              <div class="slider__stars" aria-hidden="true">★★★★★</div>
+              <blockquote class="slider__quote">«Нашли редкий японский пресс, о котором мечтал три года. RESONANCE — единственные, кто не подвели с подлинностью и сроками.»</blockquote>
+              <footer class="slider__author">
+                <span class="slider__name">Дмитрий К.</span>
+                <span class="slider__role">DJ · Санкт-Петербург</span>
+              </footer>
+            </article>
+            <article class="slider__slide glass-card">
+              <div class="slider__stars" aria-hidden="true">★★★★★</div>
+              <blockquote class="slider__quote">«Listening party в их студии — это cinematic experience. Звук, свет, винил — всё на уровне топовых мировых пространств.»</blockquote>
+              <footer class="slider__author">
+                <span class="slider__name">Елена В.</span>
+                <span class="slider__role">Музыкальный критик</span>
+              </footer>
+            </article>
+            <article class="slider__slide glass-card">
+              <div class="slider__stars" aria-hidden="true">★★★★★</div>
+              <blockquote class="slider__quote">«Заказываю уже четвёртый раз. Каждый дроп — событие. Сервис ощущается как private concierge для меломанов.»</blockquote>
+              <footer class="slider__author">
+                <span class="slider__name">Игорь С.</span>
+                <span class="slider__role">Продюсер · Берлин</span>
+              </footer>
+            </article>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" id="sliderPrev" aria-label="Предыдущий отзыв" data-cursor="hover">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </button>
+            <div class="slider__dots" id="sliderDots" role="tablist" aria-label="Выбор отзыва"></div>
+            <button class="slider__btn" id="sliderNext" aria-label="Следующий отзыв" data-cursor="hover">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/layout.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RESONANCE — премиальная студия винила, редких изданий и кураторского звука.">
+  <meta name="theme-color" content="#0a0a0c">
+  <title>RESONANCE — Кураторский мир винила</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Outfit:wght@300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__bg" data-parallax="0.35">
+        <img src="assets/hero-bg.svg" alt="" class="hero__bg-img" width="1920" height="1080" loading="eager">
+        <div class="hero__overlay"></div>
+        <div class="hero__grain"></div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow reveal" data-delay="0">Кураторский мир звука</p>
+        <h1 class="hero__title reveal" data-delay="100">
+          <span class="hero__title-line">Редкий</span>
+          <span class="hero__title-line hero__title-line--accent">винил</span>
+          <span class="hero__title-line">нового уровня</span>
+        </h1>
+        <p class="hero__subtitle reveal" data-delay="200">
+          Лимитированные издания, эксклюзивные дропы и cinematic listening experience — с заботой о каждой пластинке.
+        </p>
+        <div class="hero__actions reveal" data-delay="300">
+          <a href="catalog.html" class="btn btn--primary" data-cursor="hover">
+            <span>Исследовать коллекцию</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <button type="button" class="btn btn--ghost" data-modal-open data-cursor="hover">Оставить заявку</button>
+        </div>
+      </div>
+      <div class="hero__disc" data-parallax="0.15" aria-hidden="true">
+        <div class="hero__disc-inner">
+          <div class="hero__disc-grooves"></div>
+          <div class="hero__disc-label">R</div>
+        </div>
+      </div>
+      <a href="about.html" class="hero__scroll" aria-label="Прокрутить" data-cursor="hover">
+        <span class="hero__scroll-text">Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </a>
+    </section>
+
+    <section class="home-teaser section">
+      <div class="container">
+        <div class="home-teaser__grid">
+          <a href="about.html" class="home-teaser__card reveal" data-cursor="hover">
+            <span class="home-teaser__num">01</span>
+            <h3>О студии</h3>
+            <p>Кураторский отбор и философия звука</p>
+          </a>
+          <a href="catalog.html" class="home-teaser__card reveal" data-delay="100" data-cursor="hover">
+            <span class="home-teaser__num">02</span>
+            <h3>Коллекция</h3>
+            <p>Редкие релизы и лимитированные издания</p>
+          </a>
+          <a href="process.html" class="home-teaser__card reveal" data-delay="200" data-cursor="hover">
+            <span class="home-teaser__num">03</span>
+            <h3>Процесс</h3>
+            <p>От заявки до первого spin</p>
+          </a>
+          <a href="reviews.html" class="home-teaser__card reveal" data-delay="300" data-cursor="hover">
+            <span class="home-teaser__num">04</span>
+            <h3>Отзывы</h3>
+            <p>Голоса нашего комьюнити</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/layout.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
